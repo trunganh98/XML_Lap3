@@ -1,0 +1,26 @@
+xsampdoc{
+    text-align: center;
+}
+greeting{
+    display: block;
+    color: mediumvioletred;
+    font-weight: bold;
+    font-size: 20pt;
+}
+greeting extension{
+    display: block;
+    color: black;
+    font-weight: normal;
+    background-color: darkorange;
+}
+[class=ans] extension{
+    color: limegreen;
+    display: block;
+    font-size: 18pt;
+    background-color: aliceblue;
+}
+question{
+    display: block;
+    background-color: #36b6ba;
+    font-size: 20pt;
+}

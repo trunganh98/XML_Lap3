@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sc:schema xmlns:sc="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://google.com"
+           xmnls="http://google.com"
+           elementFormDefault="qualified">
+    <sc:element name="books">
+        <sc:complexType>
+            <sc:sequence>
+                <sc:element name="heading" type="sc:string"/>
+                <sc:element name="book">
+                    <sc:complexType>
+                        <sc:sequence>
+                            <sc:element name="title" type="sc:string"/>
+                            <sc:element name="author" type="sc:string"/>
+                            <sc:element name="publisher" type="sc:string"/>
+                            <sc:element name="edition" type="sc:string"/>
+                            <sc:element name="price" type="sc:string"/>
+                        </sc:sequence>
+                    </sc:complexType>
+                </sc:element>
+            </sc:sequence>
+        </sc:complexType>
+    </sc:element>
+</sc:schema>
